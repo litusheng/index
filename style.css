@@ -1,0 +1,220 @@
+﻿/*全局样式*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.auto{
+	margin: auto;
+}
+html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: url(bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*搜索样式*/
+.search{
+	margin: 60px auto 20px;
+	width: 100%;
+	height: 38px;
+}
+.search .searchBox{
+	width: 600px;
+	height: 100%;
+}
+.search .wd{
+	width: 480px;
+	height: 20px;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #ccc;
+	display: block;
+}
+.search .wd:hover{
+	border-color: #b3b3b3;
+}
+.search .wd:focus{
+	border-color: #3388ff;
+}
+.search .searchBtn{
+	width: 102px;
+	height: 38px;
+	background: #3388ff;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	outline: none;
+	display: block;
+	margin-left: -1px;
+	cursor: pointer;
+}
+.search .searchBtn:hover{
+	background: #317ef3;
+}
+/*分类板块*/
+.maincon{
+	width: 1200px;
+	height: 452px;
+	overflow: hidden;
+}
+.maincon .plate{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 40px;
+}
+.maincon .plate .platename{
+	width: 120px;
+	height: 100%;
+}
+.plate .platename h3{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+}
+.maincon .plate .platecon{
+	width: 1080px;
+	height: 100%;
+}
+.maincon .plate .platecon ul li:first-child{
+	margin-left: 0;
+}
+.maincon .plate .platecon ul:first-child li{
+	margin-top: 0;
+}
+.plate .platecon .item{
+	/*border: 1px solid #e5e5e5;*/
+	margin: 1px;
+	border-left: none;
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+	width: 118px;
+	background: rgba(0,0,0,0.5);
+}
+.plate .platecon .item:hover{
+	background: rgba(0,0,0,0.9);
+}
+.maincon .conItem{
+	width: 1200px;
+	height: 452px;
+}
+.maincon .conItem div:last-child{
+	margin: 0;
+}
+
+/*itemList*/
+.itemList{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.itemList li{
+	box-sizing: border-box;
+	float: left;
+	cursor: pointer;
+	width: 120px;
+	height: 40px;
+	margin-right: 20px;
+	background: rgba(0,0,0,0.5);
+	color: #aaa;
+	line-height: 40px;
+	text-align: center;
+}
+.itemList li:last-child{
+	margin-right: 0;
+}
+.itemList li:hover{
+	color: #fff;
+}
+.itemList li.active{
+	border: 1px solid #fff;
+	color: #fff;
+	background: rgba(0,0,0,0.9);
+}
+/*板块一样式*/
+.one .platename{
+	background: #c62828;
+}
+.one .platename h3{
+	background: #b71c1c;
+}
+/*板块二样式*/
+.two .platename{
+	background: #1565c0;
+}
+.two .platename h3{
+	background: #0d47a1;
+}
+/*板块三样式*/
+.three .platename{
+	background: #00695c;
+}
+.three .platename h3{
+	background: #004d40;
+}
+/*板块四样式*/
+.four .platename{
+	background: #d84315;
+}
+.four .platename h3{
+	background: #bf360c;
+}
+/*板块五样式*/
+.five .platename{
+	background: #2e7d32;
+}
+.five .platename h3{
+	background: #1b5e20;
+}
+/*板块六样式*/
+.six .platename{
+	background: #ad1457;
+}
+.six .platename h3{
+	background: #880e4f;
+}
+/*板块七样式*/
+.seven .platename{
+	background: #424242;
+}
+.seven .platename h3{
+	background: #212121;
+}
+/*板块八样式*/
+.eight .platename{
+	background: #303f9f;
+}
+.eight .platename h3{
+	background: #1a237e;
+}
+/*板块九样式*/
+.nine .platename{
+	background: #4e342e;
+}
+.nine .platename h3{
+	background: #3e2723;
+}
+
+/*板块九样式*/
+.ten .platename{
+	background: #4e342e;
+}
+.ten .platename h3{
+	background: #3e2723;
+}
